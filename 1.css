@@ -1,0 +1,13 @@
+.image {
+    height: 200px
+}
+#image {
+    max-width: 100%;
+    animation: fade 5s linear infinite;
+    animation-delay: 2.5s;
+  }
+  @keyframes img {
+    0% { opacity: 1 }
+    50% { opacity: 0 }
+    100% { opacity: 1 }
+  }
